@@ -1,0 +1,235 @@
+/* Founts */
+
+
+body {
+    margin : 0;
+    background-color: #0E0A0F;
+}
+
+h1  , h2 {
+    font-family: 'Anybody' , sans-rerif;
+    font-size: 4rem;
+    color: #c2c2c2;
+    margin-top: 20px;
+    background: linear-gradient(to right, #FFFFFF, #E4A0F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p , h3 {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 1.5rem;
+    color: #F8E9FE;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* NavBar */
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/assets/hero-background.png');
+}
+
+header div .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+header .logo img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    background: transparent;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  font-family: 'Anybody', sans-serif;
+}
+
+.nav-links a:hover {
+  color: #d4cebb;
+  text-decoration: underline;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#get-started {
+    background-color: #AF2ECB;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Hero seccion */
+
+
+.hero  {
+    background-image: url('/assets/hero.png');
+    background-size: cover;
+    background-position: center  center;
+    background-repeat: no-repeat;
+    background-color: #0E0A0F;
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: 60vh;
+}
+
+.hero-new-btn  {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    padding: 0rem;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 3rem  ;
+    margin-left: 42rem;
+    margin-right: 42rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    background-color: #4d464e;
+}
+
+.hero-new-btn .btn {
+    background-color: #AF2ECB;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+}
+
+
+
+.hero-content-buttons .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-content-buttons .start-free-trial {
+    background-color: #E4A0F7;
+    color: #000000;
+    font-family: 'Alexandria', sans-serif;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#watch-demo {
+    background-color: transparent;
+    color: #E4A0F7;
+    font-family: 'Alexandria', sans-serif;
+    border: 2px solid #E4A0F7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+/* showcase 1 */
+
+
+.showcase1 {
+    margin-top: 7rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: 60vh;
+}
+
+
+.card-list-showcase2 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem;
+}
+
+.card-list-showcase2 .card {
+    text-align: left;
+    border-radius: 5%;
+    background-color: #121214;
+    background : linear-gradient(180deg, #0E0A0F, #2b262c);
+    margin : 1,5rem;
+    border: 3px solid black;
+    color:#ffffff;
+    padding : 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+}
+
+.card-list-showcase2 .card p,h3 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.card-list-showcase2 .card img {
+    border-radius: 5%;
+    background-color: #121214;
+    background : #443149;
+    margin : 1.5rem;
+    color:#ffffff;
+    padding : 1rem;
+}
+
+
+/* showcase 2 */
+
+.showcase2 {
+    justify-content: center;
+    text-align: center;
+    background-image: url('/assets/grid\ pattern-1.png');
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.showcase2 .button {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 16px;
+}
