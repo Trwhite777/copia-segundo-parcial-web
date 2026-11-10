@@ -114,13 +114,12 @@ header .logo img {
     justify-content: center;
     display: flex;
     gap: 1rem;
-    padding: 0rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
     align-items: center;
+    margin-left: 40rem;
+    margin-right: 43rem;
     font-size: 1.5rem;
-    margin-top: 3rem  ;
-    margin-left: 42rem;
-    margin-right: 42rem;
-    margin-bottom: 3rem;
     border-radius: 1rem;
     background-color: #4d464e;
 }
@@ -224,6 +223,7 @@ header .logo img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 5rem;
 }
 
 
@@ -233,3 +233,15 @@ header .logo img {
     list-style-type: none;
     gap: 16px;
 }
+
+.showcase3 {
+    display: flex;
+    background : linear-gradient(180deg, #0E0A0F, #2b262c);
+    margin: 2rem 6.8rem 4rem 6.8rem;
+    border-radius: 1rem;
+}
+
+.showcase3-text p , h2{
+    text-align: left;
+    margin-left: 2rem;
+} 
